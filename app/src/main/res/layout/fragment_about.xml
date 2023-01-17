@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.AboutFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/application_about_ark_survival_evolved"
+                android:textSize="@dimen/tvAboutTextSize"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="@dimen/tvPaddingAll"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/forsettitanabout" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/aboutTextParagraph"
+                android:textSize="@dimen/aboutParagraphTextSize"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="@dimen/tvPaddingAll"
+                android:layout_marginStart="@dimen/aboutParagraphMarginStart"
+                android:layout_marginEnd="@dimen/aboutParagraphTextSizeMarginEnd"/>
+            <ImageView
+                android:layout_width="@dimen/iv2AboutWidth"
+                android:layout_height="@dimen/iv2AboutHeight"
+                android:layout_gravity="center"
+                android:src="@drawable/aboutrockdrake" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/aboutTextParagraph2"
+                android:textSize="@dimen/aboutParagraphTextSize"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="@dimen/tvPaddingAll"
+                android:layout_marginStart="@dimen/aboutParagraphMarginStart"
+                android:layout_marginEnd="@dimen/aboutParagraphTextSizeMarginEnd"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

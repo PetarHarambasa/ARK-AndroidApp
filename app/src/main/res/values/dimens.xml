@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="splashIvheight">100dp</dimen>
+    <dimen name="ivSplashHeight">345dp</dimen>
+    <dimen name="splashTextSize">20sp</dimen>
+    <dimen name="ivIconLoadingWidth">50dp</dimen>
+    <dimen name="ivIconLoadingHeight">50dp</dimen>
+    <dimen name="tvMarginLeft">50dp</dimen>
+    <dimen name="tvAboutTextSize">30sp</dimen>
+    <dimen name="navHeaderWidth">150dp</dimen>
+    <dimen name="navHeaderHeight">100dp</dimen>
+    <dimen name="navViewWidth">162dp</dimen>
+    <dimen name="navViewHeight">240dp</dimen>
+    <dimen name="navHeaderMarginTop">20dp</dimen>
+    <dimen name="aboutTextWidth">170dp</dimen>
+    <dimen name="aboutParagraphTextSize">15sp</dimen>
+    <dimen name="aboutParagraphMarginStart">50dp</dimen>
+    <dimen name="aboutParagraphTextSizeMarginEnd">50dp</dimen>
+    <dimen name="iv2AboutWidth">500dp</dimen>
+    <dimen name="iv2AboutHeight">500dp</dimen>
+    <dimen name="tvPaddingAll">20dp</dimen>
+    <dimen name="dinoPadding">10dp</dimen>
+    <dimen name="ivDinoImageWidth">850dp</dimen>
+    <dimen name="ivDinoImageHeight">550dp</dimen>
+    <dimen name="marginTop">20dp</dimen>
+    <dimen name="ivPaddingTop">25dp</dimen>
+    <dimen name="ivPaddingBottom">10dp</dimen>
+    <dimen name="ivDinoFavIconPaddBottom">20dp</dimen>
+</resources>

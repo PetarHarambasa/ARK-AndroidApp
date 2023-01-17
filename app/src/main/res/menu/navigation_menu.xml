@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="@string/creatures"
+        android:icon="@drawable/dinosaurskull"
+        android:id="@+id/menuItems"/>
+    <item
+        android:title="@string/about"
+        android:icon="@drawable/fossil"
+        android:id="@+id/menuAbout"/>
+    <item
+        android:title="@string/news"
+        android:icon="@drawable/iconnews"
+        android:id="@+id/menuNews"/>
+    <item
+        android:title="@string/favouriteNav"
+        android:icon="@drawable/iconfavourite"
+        android:id="@+id/menuFavourite"/>
+
+</menu>
