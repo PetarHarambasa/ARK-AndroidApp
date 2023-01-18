@@ -6,6 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".FavCreaturePagerActivity"
     android:id="@+id/favViewPager"
-    android:background="@color/white">
+    android:background="@drawable/blurepagerbackground">
 
 </androidx.viewpager2.widget.ViewPager2>

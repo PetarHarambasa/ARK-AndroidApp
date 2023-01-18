@@ -88,7 +88,8 @@ fun Context.fetchCreatures(): MutableList<Creature> {
                 cursor.getString(cursor.getColumnIndex(Creature::urlIcon.name)),
                 cursor.getString(cursor.getColumnIndex(Creature::urlImage.name)),
                 cursor.getString(cursor.getColumnIndex(Creature::audio.name)),
-                cursor.getInt(cursor.getColumnIndex(Creature::favourite.name)) == 1
+                cursor.getInt(cursor.getColumnIndex(Creature::favourite.name)) == 1,
+                cursor.getFloat(cursor.getColumnIndex(Creature::ratingStars.name))
 
             )
         )

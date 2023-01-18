@@ -1,11 +1,12 @@
 package hr.algebra.ark
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import hr.algebra.ark.adapter.CreaturePagerAdapter
 import hr.algebra.ark.databinding.ActivityCreaturePagerBinding
 import hr.algebra.ark.framework.fetchCreatures
 import hr.algebra.ark.model.Creature
+
 
 const val POSITION = "hr.algebra.ark.position"
 class CreaturePagerActivity : AppCompatActivity() {

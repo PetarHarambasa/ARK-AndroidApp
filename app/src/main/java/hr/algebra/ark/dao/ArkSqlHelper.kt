@@ -20,7 +20,8 @@ private val CREATE_TABLE = "create table $TABLE_NAME ( " +
         "${Creature::urlIcon.name} text not null, " +
         "${Creature::urlImage.name} text not null, " +
         "${Creature::audio.name} text not null, " +
-        "${Creature::favourite.name} integer not null " +
+        "${Creature::favourite.name} integer not null, " +
+        "${Creature::ratingStars.name} numeric not null " +
         ")"
 private const val DROP_TABLE = "drop table $TABLE_NAME"
 

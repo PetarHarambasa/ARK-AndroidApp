@@ -20,8 +20,8 @@
     <dimen name="iv2AboutHeight">500dp</dimen>
     <dimen name="tvPaddingAll">20dp</dimen>
     <dimen name="dinoPadding">10dp</dimen>
-    <dimen name="ivDinoImageWidth">850dp</dimen>
-    <dimen name="ivDinoImageHeight">550dp</dimen>
+    <dimen name="ivDinoImageWidth">800dp</dimen>
+    <dimen name="ivDinoImageHeight">500dp</dimen>
     <dimen name="marginTop">20dp</dimen>
     <dimen name="ivPaddingTop">25dp</dimen>
     <dimen name="ivPaddingBottom">10dp</dimen>

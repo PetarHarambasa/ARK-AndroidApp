@@ -10,5 +10,6 @@ data class Creature(
     var urlIcon: String,
     var urlImage: String,
     var audio: String,
-    var favourite: Boolean
+    var favourite: Boolean,
+    var ratingStars: Float
 )

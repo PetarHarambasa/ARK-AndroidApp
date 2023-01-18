@@ -3,14 +3,18 @@ package hr.algebra.ark.adapter
 import android.content.ContentUris
 import android.content.ContentValues
 import android.content.Context
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
+import android.widget.RatingBar
 import android.widget.TextView
+import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.squareup.picasso.Picasso
 import hr.algebra.ark.R
+import hr.algebra.ark.factory.getArkRepository
 import hr.algebra.ark.model.Creature
 import hr.algebra.ark.provider.ARK_PROVIDER_CONTENT_URI
 import java.io.File
@@ -30,6 +34,7 @@ class CreaturePagerAdapter(
         private val tvAboutCreature = itemView.findViewById<TextView>(R.id.tvAboutCreature)
 
         val ivFavouriteIcon = itemView.findViewById<ImageView>(R.id.ivDinoFavIcon)
+        val ratingStars = itemView.findViewById<RatingBar>(R.id.ratingBar)
 
         fun bind(creature: Creature) {
             Picasso.get()
@@ -46,6 +51,7 @@ class CreaturePagerAdapter(
             tvGroupType.text = creature.groupType
             tvAboutCreature.text = creature.aboutCreature
             ivFavouriteIcon.setImageResource(if (creature.favourite) R.drawable.iconfavourite else R.drawable.iconfavouriteno)
+            ratingStars.rating = creature.ratingStars
         }
     }
 
@@ -68,6 +74,15 @@ class CreaturePagerAdapter(
                 }, null, null
             )
             notifyItemChanged(position)
+        }
+        holder.ratingStars.setOnRatingBarChangeListener { ratingBar, fl, b ->
+            creature.ratingStars = ratingBar.rating
+            context.contentResolver.update(
+                ContentUris.withAppendedId(ARK_PROVIDER_CONTENT_URI, creature._id!!),
+                ContentValues().apply {
+                    put(Creature::ratingStars.name, creature.ratingStars)
+                }, null, null
+            )
         }
 
         holder.bind(creature)

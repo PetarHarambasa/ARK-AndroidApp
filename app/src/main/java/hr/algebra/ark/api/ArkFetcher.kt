@@ -63,6 +63,7 @@ class ArkFetcher(private val context: Context) {
                     put(Creature::urlImage.name, imagePath)
                     put(Creature::audio.name, audioPath)
                     put(Creature::favourite.name, false)
+                    put(Creature::ratingStars.name, 0)
                 }
                 context.contentResolver.insert(ARK_PROVIDER_CONTENT_URI, values)
             }
