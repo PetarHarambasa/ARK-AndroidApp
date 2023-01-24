@@ -2,9 +2,7 @@ package hr.algebra.ark.services
 
 import android.app.Service
 import android.content.Intent
-import android.media.AudioManager
 import android.media.MediaPlayer
-import android.net.Uri
 import android.os.IBinder
 import hr.algebra.ark.R
 
@@ -20,7 +18,7 @@ class BackgroundSoundService : Service() {
         mediaPlayer = MediaPlayer.create(this, R.raw.arkgenesispartone)
 
         mediaPlayer!!.isLooping = true
-        mediaPlayer!!.setVolume(100f, 100f)
+        mediaPlayer!!.setVolume(25f, 25f)
     }
 
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {

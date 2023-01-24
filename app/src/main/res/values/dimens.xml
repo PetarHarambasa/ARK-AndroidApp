@@ -26,4 +26,5 @@
     <dimen name="ivPaddingTop">25dp</dimen>
     <dimen name="ivPaddingBottom">10dp</dimen>
     <dimen name="ivDinoFavIconPaddBottom">20dp</dimen>
+    <dimen name="arkNewsTextSize">40sp</dimen>
 </resources>

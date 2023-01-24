@@ -13,7 +13,7 @@
     <string name="ok">OK</string>
     <string name="aboutTextParagraph"><![CDATA[As a man or woman stranded naked, freezing and starving on the shores of a mysterious island called ARK, you must hunt, harvest resources, craft items, grow crops, research technologies, and build shelters to withstand the elements. Use your cunning and resources to kill or tame & breed the leviathan dinosaurs and other primeval creatures roaming the land, and team up with or prey on hundreds of other players to survive, dominate… and escape!]]></string>
     <string name="aboutTextParagraph2"><![CDATA[Dinosaurs, Creatures, & Breeding! — over 100+ creatures can be tamed using a challenging capture-&-affinity process, involving weakening a feral creature to knock it unconscious, and then nursing it back to health with appropriate food. Once tamed, you can issue commands to your tames, which it may follow depending on how well you’ve tamed and trained it. Tames, which can continue to level-up and consume food, can also carry Inventory and Equipment such as Armor, carry prey back to your settlement depending on their strength, and larger tames can be ridden and directly controlled! Fly a Pterodactyl over the snow-capped mountains, lift allies over enemy walls, race through the jungle with a pack of Raptors, tromp through an enemy base along a gigantic brontosaurus, or chase down prey on the back of a raging T-Rex! Take part in a dynamic ecosystem life-cycle with its own predator & prey hierarchies, where you are just one creature among many species struggling for dominance and survival. Tames can also be mated with the opposite gender, to selectively breed successive generations using a trait system based on recombinant genetic inheritance. This process includes both egg-based incubation and mammalian gestation lifecycles! Or put more simply, raise babies!]]></string>
-    <string name="news">News</string>
+    <string name="news">ARK News</string>
     <string name="creature_name">Creature Name:</string>
     <string name="groupType">Group Type:</string>
     <string name="diet">Diet:</string>
@@ -22,4 +22,5 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="favourite">Favourite:</string>
     <string name="favouriteNav">Favourites</string>
+    <string name="ark_the_animated_series_has_now_released_its_first_season_1_full_trailer_watch_it_now">ARK: The Animated Series has now released its first Season 1 full trailer! Watch it now!</string>
 </resources>

@@ -83,6 +83,11 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-    </application>
 
+    </application>
+    <queries>
+        <intent>
+            <action android:name="com.google.android.youtube.api.service.START" />
+        </intent>
+    </queries>
 </manifest>
